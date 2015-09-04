@@ -36,7 +36,7 @@ TIME_JS_REFRESH = 30000
 TIME_JS_REFRESH_LONG = 120000
 TIME_JS_REFRESH_NET = 2000
 
-VERSION = "1.0"
+VERSION = "1.1"
 
 ALLOWED_HOSTS = ['*']
 
@@ -114,7 +114,7 @@ STATICFILES_FINDERS = (
 )
 
 LOGGING = {
-    'version': 1.1,
+    'version': 1,
     'disable_existing_loggers': False,
     'filters': {
         'require_debug_false': {
