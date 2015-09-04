@@ -114,7 +114,7 @@ STATICFILES_FINDERS = (
 )
 
 LOGGING = {
-    'version': 1,
+    'version': 1.1,
     'disable_existing_loggers': False,
     'filters': {
         'require_debug_false': {
